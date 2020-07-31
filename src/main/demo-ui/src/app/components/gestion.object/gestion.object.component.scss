@@ -1,0 +1,150 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Ruda', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #555;
+  padding-left: 200px;
+  padding-right: 200px;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+}
+
+
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: 900;
+  color: #333;
+}
+ h3 {
+   text-align: center;
+ }
+
+
+
+
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  width: 150px;
+border-radius: 0;
+
+}
+
+input[type=text]:focus {
+  border: 3px solid #2196F3;
+
+}
+
+
+/* Make all 4 objects apear side by side */
+
+
+
+
+.float {
+float: left;
+
+  width: 23%;
+  padding: 5px;
+  margin: 5px;
+  color: #555;
+  height:490px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+  0 5px 15px 0 rgba(0,0,0,0.08);
+  background-color: whitesmoke;
+  border-radius: 0;
+
+
+  border-left: 0 solid ;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+
+}
+
+.btn-group .button {
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+
+
+
+
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #2196F3;
+}
+
+div.noteAlt
+{
+
+  background-color: #f0f7fb;
+  background-position: 9px 0px;
+  background-repeat: no-repeat;
+  border-left: solid 4px #3498db;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 15px 60px;
+}
+
+label {
+
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+
+  margin: .4rem 0;
+}
+
+
+
+#appt, #aut, #percentage, #intensite,#actualval {
+  background-color: white;
+  color: grey;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+text-align: center;
+
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  width: 150px;
+
+}
+
+
+.custom-select {
+  position: relative;
+
+  font-family: Arial;
+  width: 150px;
+}
+
